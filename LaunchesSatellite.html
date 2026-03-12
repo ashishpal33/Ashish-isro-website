@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satellite</title>
+   <style>
+        .navtop{
+        height: 40px;
+        color: white;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        padding: 50px;
+    }
+    
+    .navitem{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .img{
+        height: 100px;
+        width: 100px;   
+    }
+.name{
+        display: flex;
+        text-align: justify;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+    }
+
+    li a {
+      display: block;
+      padding: 15px 40px;
+      text-decoration: none;
+      background-color:rgb(71, 113, 177);
+      color: white;
+      font-size: large;
+      font-weight:bolder;
+    }
+
+    li a:hover {
+      background-color: orange;
+    }
+
+    /* Hide sub-menus by default */
+    li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+
+    /* Show sub-menu on hover */
+    li:hover > ul {
+      display: block;
+    }
+
+    /* Sub-sub-menu style */
+    li ul li ul {
+      left: 100%;
+      top: 0;
+    }
+    body{
+        padding-left: px;
+        padding-right: 0px;
+        text-align: justify;
+        
+        
+        
+    }
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        color: antiquewhite;
+        font-size: 30px;
+        
+    }
+   
+   .img2{
+    height: 42.5%;
+    width: 42.5%;
+    /* border:5px solid red;
+    border-radius: 30px; */
+}
+.paragraph{
+  font-family:  sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(152, 203, 247);
+}
+
+.background{
+  background: url(space6.avif);
+  color: rgb(34, 33, 33);
+
+}
+.email{
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+        }
+        #goTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 10px;
+      display: none;
+      z-index: 100;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      padding: 8px 4px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    #goTopBtn:hover {
+      background-color: #555;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navtop">
+            <div class="navitem">
+                <img height="10%" width="10%" src="./image/f9e65e13bd481d5f579f0e2adad712ee.png">
+                <body><h2 align="justify">भारतीय अन्तरिक्ष अनुसन्धान सङ्गठन<br>Indian space research Organisation, Department of Space <br>भारत सरकार</h2>
+                <img height="5%" width="5%" src="./image/pngwing.com.png">
+
+            </div> 
+        </div>
+        <br>
+                 <center><ul>
+            <li>
+                <a href="http://127.0.0.1:5501/Index.html">Home</a>
+            </li>
+            <li>
+                <a href="">Mission</a>
+                <ul>
+                    <li>
+                        <a href="Mission&Achievements.html">Lunar Missions</a>
+                    </li>
+                    <li>
+                        <a href="MangalyaanMissio.html">Mangalyaan Mission (2013)</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5501/SunMission.html">Sun Mission (2023)</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5501/Gagnyan.html">Gaganyan Mission</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="LaunchesSatellite.html">Satellite</a>
+            </li>
+            <li>
+                <a href="ISRO’sGlobalimpact.html">ISRO Global Impact</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5501/Gallery.html">Gallery</a>
+            </li>
+        </ul></center>
+        <div class="heading">
+            
+        </div>
+    </nav>
+  <div class="background">
+  <div class="rock">
+    <h1 align="center">Overview of ISRO Satellite Programs</h1>
+    
+    
+<h2><u>Communication Satellites (INSAT / GSAT series)</u></h2>
+  <div class="paragraph">
+    <p>Serve telecommunication, TV broadcasting, disaster warning, maritime and strategic applications.Notable recent launches include INSAT‑3DS (Feb 2024) for climate and weather,and GSAT-N2 (Nov 2024) for enhanced comms. </p>
+  </div>
+
+<h2>Earth-Observation Satellites</h2>
+   <div class="paragraph">
+    <p>Cartosat‑3 (Nov 2019): Panchromatic resolution of 0.25 m—the highest in its.Oceansat‑3 (EOS‑06) (Nov 2022): Equipped with scatterometer and Ocean Colour Monitor Other satellites: EOS‑04, EOS‑07, EOS‑08, etc., launched 2021–2025 for diverse climate and agricultural missions.</p>
+  </div>
+
+
+ <h2>Navigation Satellites (NavIC/IRNSS)</h2>
+   <div class="paragraph">
+    <p>The regional navigation system IRNSS comprises 9 satellites
+ (8 operational), delivering geosynchronous navigation capabilities.GSAT‑7 and GSAT‑7A also support military communications and 
+  strategic mapping.</p>
+   </div>
+ 
+
+  <h2>Scientific & Planetary Missions</h2>
+    <div class="paragraph">
+      <p>AstroSat (2015): India’s first dedicated multi-wavelength 
+  observatory.Aditya‑L1 (Sep 2023): First solar observatory at L1, with instruments like SUIT 
+for UV imaging Lunar missions: Chandrayaan‑1 (2008), Chandrayaan‑2 (2019 orbiter),
+ Chandrayaan‑3 (landed 2023). Mars Orbiter Mission (MOM) (2013): Successfully entered Martian 
+  orbit.</p>
+    </div>
+
+
+    <h2>Meteorological Satellites</h2>
+    <div class="paragraph">
+      <p>Kalpana‑1 (2002): First dedicated weather satellite, based on PSLV-C4</p>
+    </div>
+    
+  <h2>Experimental / Small & Student Satellites</h2>
+  <div class="paragraph">
+    <p>Includes SRE‑1, TechSat, NanoSat, SPADEX‑A/B (space docking demo Jan 2025), 
+  Microsat‑TD, NVS‑02 (Jan 2025), among others.</p>
+  </div>
+  </div>
+</div>
+ <footer style="background-color: #000b38; color: white; padding: 30px 10px; font-family: Arial, sans-serif;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
+
+        <!-- Address Section -->
+        <div style="flex: 1; min-width: 250px;">
+            <h3>Address</h3>
+            <div style="background-color: #1a274f; padding: 10px; border-left: 5px solid #4ec3ff;">
+                ISRO Headquarters, Antariksh Bhavan, New BEL Road<br>
+                Bengaluru - 560 094<br><br>
+                <strong>Phone:</strong> +91 80 22172294 / 96<br>
+                <strong>Email:</strong> <button onclick="window.location='ashish01890@gmail.com'" class="email">ashish01890@gmail.com</button>
+            </div>
+        </div>
+
+        <!-- Link Columns -->
+        <div style="flex: 2; display: flex; justify-content: space-between; flex-wrap: wrap; min-width: 300px;">
+            <!-- Column 1 -->
+            <div style="min-width: 150px;">
+                <p><a href="http://127.0.0.1:5501/Index.html"><font color="white">Home</font></a></p>
+                <p><a href="Mission&Achievements.html"><font color="white"> Lunar Missions</font></a></p>
+                <p><a href="MangalyaanMissio.html"><font color="white"> Mangalyaan Mission</font></a></p>
+            </div>
+            <!-- Column 2 -->
+            <div style="min-width: 150px;">
+                <p><a href="http://127.0.0.1:5501/SunMission.html"><font color="white">Sun Mission</font></a></p>
+                <p><a href="http://127.0.0.1:5501/Gagnyan.html"><font color="white"> Gaganyan Mission</font></a></p>
+                <p><a href="LaunchesSatellite.html"><font color="white"> Satellite</font></a></p>
+            </div>
+            <!-- Column 3 -->
+            <div style="min-width: 150px;">
+                <p><a href="ISRO’sGlobalimpact.html"><font color="white"> ISRO Global Impact</font></a></p>
+                <p><a href="http://127.0.0.1:5501/Gallery.html"><font color="white"> Gallery</font></a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Last updated line -->
+    <p style="color: #00ff80; font-weight: bold; margin-top: 20px;">
+        Last updated on :Fri Jun 27 2025 07:42:08 GMT+5:30 (Indian Standard Time)
+    </p>
+
+    
+</footer>
+<button onclick="topFunction()" id="goTopBtn" title="Go to top">↑ Top</button>
+</body>
+  <script>
+    // Get the button
+    const goTopBtn = document.getElementById("goTopBtn");
+
+    // Show button when user scrolls down 20px
+    window.onscroll = goTopBtn.style.display = "block";
+
+    // Scroll to top
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</html>
